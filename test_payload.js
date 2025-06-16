@@ -24,5 +24,5 @@ function user(token) {
             console.log(xhr.responseText); // Log the response text to the console
         }
     };
-    xhr.send("__csrf_magic=" + token + "&&name=Samantha&lastName=Czech&login=sam%2b" + Math.floor(Math.random() * 9000) + "%40campaignmonitor.com&role_id=1&extra=livemail&version=videoemail&action=addNewUser"); // Send the token and user data to add the user
+    xhr.send("__csrf_magic=" + token + "&&name=Samantha&lastName=Czech&login=sam%2b" + Math.floor(Math.random() * 9000) + "%40meetmarigold.com&role_id=1&extra=livemail&version=videoemail&action=addNewUser"); // Send the token and user data to add the user
 }
